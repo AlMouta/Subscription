@@ -12,11 +12,8 @@ namespace Subscription.Domain.Entities
         #region Propriedades
 
         public string Nome { get; set; } = string.Empty;
-
         public Email? Email { get; set; }
-
         public DateTime DataCadastro { get; set; } = DateTime.Now;
-
         public StatusCliente Status { get; set; } = StatusCliente.Ativo;
 
         #endregion
